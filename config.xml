@@ -6,10 +6,10 @@
     version     = "3.7.1" >
 
 
-  <name>Avora App</name>
+  <name>Five App</name>
 
   <description>
-      Access all of Avora right on the screen
+      Five app
   </description>
 
   <author href="https://elbaga.net" email="oelbaga@gmail.com">
