@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.nwg.avoraapp"
+    id          = "com.oe.fiveapp"
     versionCode = "10"
     version     = "3.7.1" >
 
@@ -80,8 +80,8 @@
    <feature name="StatusBar"><param name="ios-package" value="CDVStatusBar" onload="true" /></feature>
 		  
 	<plugin name="cordova-plugin-whitelist" source="npm" />
-	<allow-navigation href="http://testing.newworldgroup.com" />
-	<allow-navigation href="https://testing.newworldgroup.com" />
+	<allow-navigation href="http://elbaga.net" />
+	<allow-navigation href="https://elbaga.net" />
 	<allow-navigation href="http://cordova.apache.org/" />
 	<allow-navigation href="https://slack.cordova.io" />
 	<allow-navigation href="http://www.google-analytics.com/" />
