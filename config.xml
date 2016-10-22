@@ -34,21 +34,20 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
   <!-- <gap:plugin name="com.phonegap.plugin.statusbar" /> -->
-   <gap:plugin name="org.apache.cordova.statusbar" />    
+  <gap:plugin name="org.apache.cordova.statusbar" />    
+	 <!-- http://docs.phonegap.com/phonegap-build/configuring/icons-and-splash/#splashes -->
+   <!-- default android and IOS splash -->
+   <splash src="splash.png" />
+   <splash src="splash.png" platform="ios" width="320" height="480" />
 
-		<!-- http://docs.phonegap.com/phonegap-build/configuring/icons-and-splash/#splashes -->
-	   <!-- default android and IOS splash -->
-	   <splash src="splash.png" />
-	   <splash src="splash.png" platform="ios" width="320" height="480" />
-
-		<!-- android icons -->
-		<icon src="icons/android/48x48.png" platform="android" qualifier="ldpi" />
-		<icon src="icons/android/48x48.png" platform="android" qualifier="mdpi" />
-		<icon src="icons/android/72x72.png" platform="android" qualifier="hdpi" />
-		<icon src="icons/android/96x96.png" platform="android" qualifier="xhdpi" />
-		<icon src="icons/android/144x144.png" platform="android" qualifier="xxhdpi" />
-		<icon src="icons/android/192x192.png" platform="android" qualifier="fr-xxhdpi" />
-		
+	<!-- android icons -->
+	<icon src="icons/android/48x48.png" platform="android" qualifier="ldpi" />
+	<icon src="icons/android/48x48.png" platform="android" qualifier="mdpi" />
+	<icon src="icons/android/72x72.png" platform="android" qualifier="hdpi" />
+	<icon src="icons/android/96x96.png" platform="android" qualifier="xhdpi" />
+	<icon src="icons/android/144x144.png" platform="android" qualifier="xxhdpi" />
+	<icon src="icons/android/192x192.png" platform="android" qualifier="fr-xxhdpi" />
+	
 		<!-- ios icons -->
 		<!-- iPhone 6 / 6+ -->
 		<icon src="icons/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
