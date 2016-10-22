@@ -82,6 +82,7 @@
 		  
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<allow-navigation href="http://elbaga.net" />
+	<allow-navigation href="http://testing.newworldgroup.com/" />
 	<allow-navigation href="https://elbaga.net" />
 	<allow-navigation href="http://cordova.apache.org/" />
 	<allow-navigation href="https://slack.cordova.io" />
@@ -92,4 +93,5 @@
 	<allow-navigation href="http://cordovablogs.discus.com/" />
 	<access origin="*" />
 	<access origin="http://elbaga.net/" />
+	<access origin="http://testing.newworldgroup.com/" />
 </widget>
