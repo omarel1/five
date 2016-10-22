@@ -91,4 +91,5 @@
 	<allow-navigation href="https://*.twimg.com/" />
 	<allow-navigation href="http://cordovablogs.discus.com/" />
 	<access origin="*" />
+	<access origin="http://elbaga.net" />
 </widget>
